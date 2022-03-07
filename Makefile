@@ -1,4 +1,4 @@
-build: process.c
+build: main.c
 	gcc $< -o $@
 
 .PHONY: run clean
